@@ -4,9 +4,9 @@
 int main( int argc, char** argv )
 {
     const char* my_json_string = "[ \
-        \"ver\n\", \
-        \"down\n\", \
-        \"country\n\" \
+        \"ver\", \
+        \"down\", \
+        \"country\" \
     ]";
 
     CSON *root = CSON_Parse(my_json_string);
